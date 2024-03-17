@@ -7,8 +7,7 @@ import Register from './components/Register';
 // import { DarkModeProvider } from './DarkModeContext';
 import Footer from './components/Footer';
 import Recipe from './components/Recipe';
-import RecipeDetails from './components/RecipeDetails';
-function App() {
+ function App() {
   return (
   
     <BrowserRouter>
