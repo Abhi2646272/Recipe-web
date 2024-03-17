@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link,Route ,Routes} from "react-router-dom"; // Import Link from react-router-dom
 import RecipeCard from "./RecipeCard";
 import Styles from "./Recipe.module.css";
-import RecipeDetails from "./RecipeDetails";
-
+ 
 const Recipe = () => {
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
@@ -65,6 +64,7 @@ const Recipe = () => {
               image={recipe.recipe.image}
               ingredients={recipe.recipe.ingredients}
               details = {recipe.recipe.url}
+              totalNutrients = {recipe.recipe.totalNutrients}
             />
  
              

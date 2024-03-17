@@ -20,7 +20,7 @@ import Recipe from './components/Recipe';
       <Route path='/recipe' element={<Recipe/>}/>
         
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
      
     </BrowserRouter>
    
